@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    </head>
+    <meta charset="UTF-8">
+    <meta name=http-equiv= "x-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Tourist</title>
+    <!--###########csss###########3-->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <!--- for make a copy li line use alt+shift+down arrow-->
+            <li  class="active"><a href="#Home">Home</a></li>            
+            <li><a href="#Tour">Tour</a></li>            
+            <li><a href="#Explore">Explore</a></li>            
+            <li><a href="#About">About</a></li>            
+            <li class="ctn"><a href="#Contact">Contact</a></li>            
+
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>Wonderful Gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-------Events-->
+    <section class="Events">
+        <div class="title">
+            <h1>UpcomingEvents</h1>
+            <!----add line at the bottom of the page for upcoming events-->
+            <div class="line"></div>
+        </div>
+        
+        
+        <!---add this for add in upcoming events-->
+        <div class="row">
+            <div class="col">
+              <img src="./img/chennai.png" alt="">
+                <h4>Chennai</h4>
+                <p>It is a famous tourist place  </p>
+                <a href="#" class="ctn">Learn More</a>
+            
+            <div class="col" >
+             <img src="./img/dindigul.png" alt="">
+              <h4>Dindigul</h4>
+              <p>It is a cool place for living </p>  
+              <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+          
+    <section class="explore">
+        <div class="explore-content">
+        <h1>Explore The World</h1>
+        <div class="line"></div>
+        <p>THE WORLD IS FULL OF ADVENTURE</p>
+        <a href="#" class="ctn">Learn More</a>    
+    </section>
+     
+      <section class="tours">
+          <div class="row">
+            <div class="col image-col">
+                <div class="image-gallery">
+                   <div class="colum ">
+                <h1>UPCOMING TOURS AND DESTINATION</h1>
+                <div class="classline"></div>
+                <P>South India is a treasure trove of peace, scenic views,etc.The world has been fascinated by India's secularism and its culture.</P>
+                <p> Tourists are attracted to the beaches, historical monuments, hilly resorts, religious places etc. 
+                almost each and every region is identified with its culture etc...    </P>
+                <a href="#" class="ctn">Learn More</a>
+                <img src="./img/img6.png" alt=""> 
+                <img src="./img/img3.png" alt=""> 
+                <img src="./img/img4.png" alt="">   
+                <img src="./img/img5.png" alt=""> 
+            </div>
+              
+            </div>
+            </div>
+        </div>
+      </section>
+       <section class="footer">
+        <p>12,noth west street,newdelhi|phone:0235-469-780|email:newsheet@gmail.com</phone:23546978></p>
+        <p>copyright @ 2025 outdoor Adventure</p>        
+    </section>
+    <!------for mob as wellas pc view-->
+    <script>
+        const menubtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+      menubtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+      })
+    </script>
+</body>
+</html>
